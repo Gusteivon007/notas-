@@ -1,0 +1,39 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis
+x: inteiro
+nomes: vetor [1..5] de caractere
+sobrenome: vetor [1..5] de caractere
+notas1: vetor [1..5] de caractere
+notas2: vetor [1..5] de caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+ para x de 1 ate 2 faca
+
+  escreval("DIgite o ", x , " ° nome: ")
+  leia(nomes[x])
+  escreval("DIgite o ", x , " ° nome: ")
+  leia(sobrenomes[x])
+  escreval("DIgite a nota1 do " ,x, "° aluno:")
+  leia(notas1[x])
+  escreval("DIgite a nota2 do " ,x, "° aluno:")
+  leia(notas2[x])
+  escreval("")
+  limpatela
+fimpara
+escreval("QUAL ALUNO DESEJA MOSTRAR OS DADOS ?")
+leia(resposta)
+
+escreval("nome = " , nomes[resposta])
+escreval("sobrenome = " , sobrenomes[resposta])
+escreval("nota 1 = " , notas1[resposta])
+escreval("nota 2 = " , totas2[resposta])
+
+Fimalgoritmo
